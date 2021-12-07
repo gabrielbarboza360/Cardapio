@@ -63,4 +63,8 @@ header > h2 {
     text-decoration: underline;
 }
 
+body{
+    background-color: red;
+}
+
 /* ---------------------------------- CABEÇALHO -------------------------------------------- */
