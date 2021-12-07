@@ -1,9 +1,5 @@
 @charset "UTF-8";
-@font-face{
-    font-family: newacai;
-    src: url('fonts/PlomPraeng.ttf') format('truetype');
-}
-
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=La+Belle+Aurore&family=Zen+Antique&family=Zen+Kurenaido&family=Zen+Old+Mincho:wght@900&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -16,16 +12,21 @@ header{
 }
 
 header > h1 {
-    color: white;
+    color: #bd42a2;
     text-align: center;
-    font-family: newacai, Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     font-size: 64px;
+    text-shadow: 2px 2px 4px black;
     
 
 }
 
 header > h2 {
-    color: white;
+    color: #A30A82;
     text-align: center;
+    font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 25px;
+    text-shadow: 2px 2px 4px black;
 }
