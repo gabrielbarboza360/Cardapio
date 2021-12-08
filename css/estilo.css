@@ -9,7 +9,7 @@
 
 /* -------------------------------------- CABÇALHO ---------------------------------------*/
 header{
-    background-image: url('imagem/cabeçalho.jpg');
+    background-image: url('../imagem/cabeçalho.jpg');
     height: 150px;
 }
 
@@ -63,9 +63,38 @@ header > h2 {
     text-decoration: underline;
 }
 
-body{
-    background-color: red;
-    color: white;
-}
+
 
 /* ---------------------------------- CABEÇALHO -------------------------------------------- */
+
+/*---------------------------------- corpo ----------------------------------- */
+
+body{
+    background-color: thistle;
+    height: 100%;
+}
+
+footer{
+    background-color: black;
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height: 5%;
+}
+
+footer > p{
+    color: white;
+    text-align: center;
+    margin-top: 6px;
+}
+
+footer > p > a {
+    color: green;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+footer > p > a:hover{
+    color: yellow;
+    text-decoration: underline;
+}
