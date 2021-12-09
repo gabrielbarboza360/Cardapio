@@ -6,20 +6,43 @@
     display: block;
 }
 
+* {box-sizing: border-box;
+}
 .galeria > ul {
     max-width: 700px;
-    border: 1px solid rgba(0,0,0,.2);
+    width: 100%;
     margin: auto auto auto auto;
     margin-top: 100px;
     list-style: none;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid rgba(0,0,0,.2);
+    box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.356);
     padding: 20px;
 }
 
-
+.galeria > ul > li{
+    border: 1px solid rgba(231, 3, 3, 0);
+    display: list-item;
+    border: 2px solid black;
+    
+    margin: 20px;
+    
+}
 .foto1{
-    background-image: url('../imagem/foto1.jpg') ;
-    width: 200px;
-    height: 200px;
+    background-image: url('../imagem/foto1.jpg');
+    width: 32%;
+    height: 224px;
+    background-position: center center;
+    background-size: contain;
+    
+
+}
+
+.foto2{
+    background-image: url('../imagem/foto2.jpg')  ;
+    width: 32%;
+    height: 224px;
     background-position: center center;
     background-size: contain;
 
