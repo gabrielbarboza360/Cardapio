@@ -1,0 +1,26 @@
+@charset "UTF-&";
+
+
+
+.galeria{
+    display: block;
+}
+
+.galeria > ul {
+    max-width: 700px;
+    border: 1px solid rgba(0,0,0,.2);
+    margin: auto auto auto auto;
+    margin-top: 100px;
+    list-style: none;
+    padding: 20px;
+}
+
+
+.foto1{
+    background-image: url('../imagem/foto1.jpg') ;
+    width: 200px;
+    height: 200px;
+    background-position: center center;
+    background-size: contain;
+
+}
