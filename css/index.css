@@ -2,48 +2,8 @@
 
 
 
-.galeria{
-    display: block;
-}
-
-* {box-sizing: border-box;
-}
-.galeria > ul {
-    max-width: 1200px;
-    width: 100%;
-    margin: auto auto auto auto;
-    margin-top: 100px;
-    list-style: none;
-    overflow: hidden;
-    position: relative;
-    padding: 20px;
-}
-
-.compartimento1{
-    display: block;
-    position: relative;
-    left: 200px;
-    border: 2px solid black;
-    margin-bottom: 20px;
-}
 .foto1{
-    background-image: url('../imagem/foto1.jpg');
-    width: 32%;
-    height: 224px;
-    background-position: center center;
-    background-size: contain;
-    
+   background-image: url("/imagem/foto1.jpg");
+ 
 }
-
-.galeria > ul > li{
-    float: left;
-}
-
-.foto2{
-    background-image: url('../imagem/foto2.jpg')  ;
-    width: 32%;
-    height: 224px;
-    background-position: center center;
-    background-size: contain;
-
-}
+  
