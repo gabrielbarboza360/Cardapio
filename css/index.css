@@ -1,9 +1,26 @@
 @charset "UTF-&";
 
 
-
-.foto1{
-   background-image: url("/imagem/foto1.jpg");
- 
+ul{
+   list-style: none;
 }
-  
+
+.conteiner{
+   display: block;
+   position: absolute;
+   border: solid 2px rgba(0, 0, 0, 0.4);
+   box-shadow: 4px 4px 2px #a30a8259;
+   border-radius:10px;
+   width: 35%;
+   height: 190px;
+   padding: 20px;
+}
+
+.imagemC{
+   
+   width: 35%;
+   height: 150px;
+}
+
+
+
