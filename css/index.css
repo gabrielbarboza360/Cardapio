@@ -16,11 +16,54 @@ ul{
    padding: 20px;
 }
 
+.conteiner > h1{
+   font-size: 20pt;
+   position: relative;
+   left: 180px;
+   top: -150px;
+
+}
+
+.conteiner > p{
+   font-size: 14pt;
+   position: relative;
+   left: 180px;
+   top: -150px;
+   margin-top: 10px;
+
+}
+
+.botao{
+   display: block;
+   position: relative;
+   padding: 20px;
+   background-color: #2e0325;
+   width: 65px;
+   border: 2px solid black;
+   color: white;
+   border-radius: 10px;
+   top: -100px; 
+   left: 320px
+  
+}
+.conteiner > a{
+   text-decoration: none;
+}
+.botao:hover{
+   background-color: rgb(1, 54, 1);
+}
+.conteiner > a:hover{
+   text-decoration: underline;
+   color: white;
+}
+
+
 .imagemC{
    
    width: 35%;
    height: 150px;
 }
+
 
 
 
