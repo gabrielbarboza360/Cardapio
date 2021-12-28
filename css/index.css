@@ -1,142 +1,59 @@
 @charset "UTF-&";
 
-@media screen and (max-width: 1900px){
+*{
+   margin: 0px;
+   padding: 0px;
+}
 
+.conteiner{
+   display: grid ;
+   height: 100vh;
+   grid-template-columns: 42% 42%;
+   grid-template-rows: 28% 28% 28%;
+   column-gap: 2% ;
+   row-gap: 5%;
+   justify-content: center;
+   margin: 40px;
+   
+}
 
 
 ul{
    list-style: none;
 }
 
-.conteiner{
-   display: block;
-   position: absolute;
-   border: solid 2px rgba(0, 0, 0, 0.4);
-   box-shadow: 4px 4px 2px #a30a8259;
-   border-radius:10px;
-   width: 35%;
-   height: 190px;
-   padding: 20px;
+.toda-img{
+   width: 37%;
+   margin: 10px;
 }
 
-.conteiner > h1{
-   font-size: 20pt;
-   position: relative;
-   left: 180px;
-   top: -150px;
 
-}
-
-.conteiner > p{
-   font-size: 14pt;
-   position: relative;
-   left: 180px;
-   top: -150px;
-   margin-top: 10px;
-
-}
-
-.botao{
-   display: block;
-   position: relative;
-   padding: 20px;
-   background-color: #2e0325;
-   width: 65px;
+.box{
+   background: #ffffff;
    border: 2px solid black;
-   color: white;
-   border-radius: 10px;
-   top: -110px; 
-   left: 190px
+   padding: 10px;
+}
+
+.box > h1{
+   display: grid;
   
-}
-.conteiner > a{
-   text-decoration: none;
-}
-.botao:hover{
-   background-color: rgb(1, 54, 1);
-}
-.conteiner > a:hover{
-   text-decoration: underline;
-   color: white;
+ 
 }
 
-
-.imagemC{
-   
-   width: 35%;
-   height: 150px;
+.box-1{
+   margin: 0px;
+   padding: 0px;
 }
 
 
 
-}
 
 
-@media screen and (max-width: 1329px){
-   ul{
-      list-style: none;
-   }
-   
-   .conteiner{
-      display: block;
-      position: absolute;
-      border: solid 2px rgba(0, 0, 0, 0.4);
-      box-shadow: 4px 4px 2px #a30a8259;
-      border-radius:10px;
-      width: 25%;
-      height: 160px;
-      padding: 15px;
-   }
-   
-   .conteiner > h1{
-      display: block;
-      font-size: 18pt;
-      position: relative;
-      left: 120px;
-      top: -150px;
-   
-   }
-   
-   .conteiner > p{
-      font-size: 12pt;
-      display: block;
-      position: relative;
-      left: 140px;
-      top: -150px;
-      margin-top: 10px;
-   
-   }
-   
-   .botao{
-      display: block;
-      position: relative;
-      padding: 13px;
-      background-color: #2e0325;
-      font-size: 10pt;
-      width: 45px;
-      border: 2px solid black;
-      color: white;
-      border-radius: 10px;
-      top: -110px; 
-      left: 140px;
-     
-   }
-   .conteiner > a{
-      text-decoration: none;
-   }
-   .botao:hover{
-      background-color: rgb(1, 54, 1);
-   }
-   .conteiner > a:hover{
-      text-decoration: underline;
-      color: white;
-   }
-   
-   
-   .imagemC{
-      
-      width: 35%;
-      height: 150px;
-   }
 
-}
+
+
+
+
+
+
+
