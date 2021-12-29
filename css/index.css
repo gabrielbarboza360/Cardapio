@@ -31,14 +31,24 @@ ul{
 .box{
    background: #ffffff;
    border: 2px solid black;
-   padding: 10px;
+   padding: 10%;
 }
 
-.box > h1{
-   display: grid;
+.box-1 > h1{
+  position: relative;
+  top: -90%;
+  left: 43%;
+  font-size: 20pt;
+  }
   
- 
-}
+.box-1 > p{
+  position: relative;
+  top: -80%;
+  left: 43%;
+  font-size: 14pt;
+  }
+
+
 
 .box-1{
    margin: 0px;
