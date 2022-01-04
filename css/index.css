@@ -8,8 +8,8 @@
 .conteiner{
    display: grid ;
    height: 100vh;
-   grid-template-columns: 42% 42%;
-   grid-template-rows: 28% 28% 28%;
+   grid-template-columns:  repeat(auto-fit, minmax(42% , 1fr));
+   grid-template-rows:  repeat(auto-fit, minmax(28% , 1fr));
    column-gap: 2% ;
    row-gap: 5%;
    justify-content: center;
@@ -23,37 +23,39 @@ ul{
 }
 
 .toda-img{
-   width: 37%;
-   margin: 10px;
+   width: 34%;
+   float: left;
+   margin: 0px;
+   padding: 10px;
 }
-
 
 .box{
    background: #ffffff;
    border: 2px solid black;
    padding: 10%;
-}
-
-.box-1 > h1{
-  position: relative;
-  top: -90%;
-  left: 43%;
-  font-size: 20pt;
-  }
-  
-.box-1 > p{
-  position: relative;
-  top: -80%;
-  left: 43%;
-  font-size: 14pt;
-  }
-
-
-
-.box-1{
    margin: 0px;
    padding: 0px;
 }
+
+.box > h1{
+float: left;
+padding: 20px;
+font-size: 20pt;
+margin: 0px;
+
+}
+
+.box > p{
+   font-size: 12pt;
+   display: block;
+   position: relative;
+   top: 63px;
+   left: -180px;
+}
+
+
+
+
 
 
 
