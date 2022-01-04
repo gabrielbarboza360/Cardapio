@@ -7,7 +7,7 @@
 
 .conteiner{
    display: grid ;
-   height: 100vh;
+   height: 50vh;
    grid-template-columns:  repeat(auto-fit, minmax(42% , 1fr));
    grid-template-rows:  repeat(auto-fit, minmax(28% , 1fr));
    column-gap: 2% ;
