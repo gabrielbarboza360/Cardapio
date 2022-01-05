@@ -118,6 +118,16 @@ color: white;}
 
 @media screen and (max-width:680px){
   
+   
+body{
+    background-color: thistle;
+    width: 100%;
+    height: 100hv;
+    
+    
+   
+}
+
 
    .conteiner{
       display: grid ;
