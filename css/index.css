@@ -95,7 +95,6 @@ color: white;}
 @media screen and (min-width:350px) and (max-width:1189px){
    
 section{
-  background-color: blue;
    width: 100%;
    height: 100vh;
 }
@@ -149,6 +148,3 @@ section{
     left: 0px;}
 }
 
-footer{
-   display: none;
-}
