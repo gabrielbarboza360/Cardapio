@@ -11,6 +11,7 @@
 /* -------------------------------------- CABÇALHO ---------------------------------------*/
 header{
     background-image: url('../imagem/cabeçalho.jpg');
+    width: 100%;
     height: 150px;
 }
 
@@ -18,7 +19,7 @@ header > h1 {
     color: #bd42a2;
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 79px;
+    font-size: 60pt;
     text-shadow: 2px 2px 4px black;
     text-align: center;
 }
@@ -27,12 +28,13 @@ header > h2 {
     color: #A30A82;
     font-family: Bradley Hand ITC, Arial, Helvetica, sans-serif;
     font-style: italic;
-    font-size: 25px;
+    font-size: 20pt;
     text-shadow: 2px 2px 4px black;
     text-align: center;
 }
 
 .menu {  
+   width: 100%; 
   display: block;
   background-color: black;
   
@@ -49,7 +51,7 @@ header > h2 {
     display: inline-block;
     border: #2e0325 2px;
     border-radius: 5px;
-    margin: 3px;
+    margin: 4px;
     padding: 6px;
 }
 
@@ -72,7 +74,7 @@ header > h2 {
 
 body{
     background-color: thistle;
-    height: 100hv;
+    height: 70hv;
     
     
    
