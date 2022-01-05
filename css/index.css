@@ -134,17 +134,17 @@ section{
    color: white;}
    
    .box > p{
-      font-size: 12pt;
+      font-size: 11pt;
       display: block;
       position: relative;
       top:63px;
-      left: -150px;
+      left: -130px;
       color: white;}
    
    .botao{
     display: block;
     position: relative;
-    top: 90px;
-    left: 0px;}
+    top: 70px;
+    left: 40px;}
 }
 
