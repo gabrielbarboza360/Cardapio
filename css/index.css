@@ -80,11 +80,45 @@ color: white;}
    font-size: 14pt;
    text-decoration: underline;}
 
-   @media screen and (max-width:600px){
-      body{
-         background-color: red;
+   @media screen and (max-width:1234px){
+      
+   
+      .toda-img{
+      width: 34%;
+      height: 24vh;
+      float: left;
+      margin: 0px;
+      padding: 10px;
+      object-fit: cover;}
+   
+      .box > h1{
+         float: left;
+         padding: 15px;
+         font-size: 14pt;
+         margin: 0px;
+         color: white;}
+
+         
+      .box > p{
+       display: none;
+   
       }
       
+      .botao{
+         display: block;
+         position: relative;
+         top: 80px;
+         left: -120px;}
+   
+      .botao > ul > li > a {
+         font-size: 12pt;
+      }
+   
+   
+
+      
+   
+   
    }
 
 
