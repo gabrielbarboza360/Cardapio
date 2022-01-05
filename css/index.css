@@ -128,7 +128,15 @@ color: white;}
       margin: 10px;}
 }
 
+.botao{
+   display: block;
+   position: relative;
+   top: 60px;
+   left: 30px;}
 
+.botao > ul > li > a {
+   font-size: 12pt;
+}
 
 
 
