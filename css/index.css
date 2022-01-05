@@ -7,7 +7,7 @@
 
 .conteiner{
    display: grid ;
-   height: 50vh;
+   height: 100vh;
    grid-template-columns:  repeat(auto-fit, minmax(42% , 1fr));
    grid-template-rows:  repeat(auto-fit, minmax(28% , 1fr));
    column-gap: 2% ;
@@ -24,9 +24,11 @@ ul{
 
 .toda-img{
    width: 34%;
+   height: 26vh;
    float: left;
    margin: 0px;
    padding: 10px;
+   object-fit: cover;
 }
 
 .box{
@@ -49,7 +51,7 @@ margin: 0px;
    font-size: 12pt;
    display: block;
    position: relative;
-   top: 63px;
+   top:63px;
    left: -180px;
 }
 
