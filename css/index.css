@@ -92,7 +92,7 @@ color: white;}
 
 }
 
-@media screen and (min-width:800px) and (max-width:1189px){
+@media screen and (min-width:200px) and (max-width:1189px){
 body{
    background-color: red;
 }
