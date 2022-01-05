@@ -141,12 +141,14 @@ section{
     position: relative;
     top: 40px;
     left: 40px;}
+
+    .botao > ul > li > a{
+      font-size: 12pt;
+   }
+   
+   footer{
+      display: none;
+   }
 }
 
-.botao > ul > li > a{
-   font-size: 12pt;
-}
 
-footer{
-   display: none;
-}
