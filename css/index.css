@@ -100,6 +100,8 @@ section{
    height: 100vh;
 }
 
+
+
    .conteiner{
       display: grid ;
       width: 80%;
@@ -108,7 +110,9 @@ section{
       grid-template-columns:100%;
       row-gap: 2%;
       justify-content: center;
-      margin: 40px;}
+      margin: auto;
+      margin-top: 20px;
+   }
    
    
    
