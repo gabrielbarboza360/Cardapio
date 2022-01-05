@@ -114,13 +114,19 @@ color: white;}
          font-size: 12pt;
       }
    
-   
+}
 
-      
-   
-   
-   }
+@media screen and (max-width:680px){
+  
 
+   .conteiner{
+      display: grid ;
+      height: 100vh;
+      grid-template-columns:  repeat(auto-fit, minmax(100% , 1fr));
+      column-gap: 2% ;
+      justify-content: center;
+      margin: 10px;}
+}
 
 
 
