@@ -134,17 +134,19 @@ section{
    color: white;}
    
    .box > p{
-      font-size: 11pt;
-      display: block;
-      position: relative;
-      top:63px;
-      left: -130px;
-      color: white;}
-   
+      display: none;
+   }
    .botao{
     display: block;
     position: relative;
-    top: 70px;
+    top: 40px;
     left: 40px;}
 }
 
+.botao > ul > li > a{
+   font-size: 12pt;
+}
+
+footer{
+   display: none;
+}
