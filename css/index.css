@@ -123,30 +123,37 @@ color: white;}
 @media screen and (max-width:1100px){
   
    
-body{
-    background-color: red;
-    width: 100%;
-    height: 100hv;
-    
-    
-   
-}
-
-
    .conteiner{
       display: grid ;
-      height: 100vh;
+      height: 55vh;
+      width: 100%;
       grid-template-columns:  repeat(auto-fit, minmax(100% , 1fr));
       column-gap: 2% ;
       justify-content: center;
       margin: 10px;}
 }
 
+.toda-img{
+   width: 29%;
+   height: 13vh;
+   float: left;
+   margin: 0px;
+   padding: 10px;
+   object-fit: cover;}
+
+   .box > p{
+      font-size: 11pt;
+      display: block;
+      position: relative;
+      top:63px;
+      left: -120px;
+      color: white;}
+
 .botao{
    display: block;
    position: relative;
-   top: 60px;
-   left: 30px;}
+   top: 120px;
+   left: 50px;}
 
 .botao > ul > li > a {
    font-size: 12pt;
