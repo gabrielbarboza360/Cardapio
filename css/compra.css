@@ -39,12 +39,19 @@ main{
     width: 165px;
     margin-top: 5px;
     margin-left: 50px;
+    list-style: none;
+    
 }
 
 .txt > ul > li > h1{
     font-size: 14pt;
-    color: red;
+    color: black;
 
+}
+footer{
+margin-top: 100px;
+background-color: black;
+height: 5vh;
 }
 }
 
@@ -91,22 +98,28 @@ main{
         margin-top: 2px;
         margin-left: 20px;
         margin-bottom: 5px;
+        list-style: none;
  
     }
     
    
     .txt > ul > li > h1{
         font-size: 14pt;
-        color: red;
+        color: black;
     
     }
     .txt > ul > li > p{
         font-size: 12pt;
     
     }
+
+    footer{
+        margin-top: 600px;
+        background-color: black;
+        height: 5vh;
+
+}
+
 }
 
 
-footer{
-    display: none;
-}

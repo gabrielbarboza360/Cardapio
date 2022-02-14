@@ -81,14 +81,9 @@ body{
 }
 
 footer{
-    display: block;
+    margin-top: 240px;
     background-color: black;
-    height: 40px;
-    position: relative;
-    
-   
-    
-    
+    height: 5vh;
 }
 
 footer > p{
